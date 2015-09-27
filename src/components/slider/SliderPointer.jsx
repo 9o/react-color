@@ -1,7 +1,7 @@
 'use strict';
 
-var React = require('react');
-var ReactCSS = require('reactcss');
+import React from 'react';
+import ReactCSS from 'reactcss';
 
 class SliderPointer extends ReactCSS.Component {
 

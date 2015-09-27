@@ -1,7 +1,4 @@
-
-module.exports = {
-  Button: require('./Button'),
-  buttonmd: require('./button.md'),
-  Sketch: require('./Sketch'),
-  sketchmd: require('./sketch.md'),
-};
+export { default as Button } from './Button';
+export { default as buttonmd } from './button.md';
+export { default as Sketch } from './Sketch';
+export { default as sketchmd } from './sketch.md';

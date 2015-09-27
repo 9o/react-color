@@ -1,6 +1,6 @@
 'use strict';
 
-var tinycolor = require('../../modules/tinycolor2');
+import tinycolor from '../../modules/tinycolor2';
 
 module.exports = {
 

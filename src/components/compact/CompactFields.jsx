@@ -1,9 +1,9 @@
 'use strict';
 
-var React = require('react');
-var ReactCSS = require('reactcss');
+import React from 'react';
+import ReactCSS from 'reactcss';
 
-var { EditableInput } = require('../common');
+import { EditableInput } from '../common';
 
 class CompactColor extends ReactCSS.Component {
 

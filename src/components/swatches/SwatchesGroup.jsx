@@ -1,9 +1,9 @@
 'use strict';
 
-var React = require('react');
-var ReactCSS = require('reactcss');
+import React from 'react';
+import ReactCSS from 'reactcss';
 
-var SwatchesColor = require('./SwatchesColor');
+import SwatchesColor from './SwatchesColor';
 
 class SwatchesGroup extends ReactCSS.Component {
 

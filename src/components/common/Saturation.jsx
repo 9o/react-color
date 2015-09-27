@@ -1,8 +1,8 @@
 'use strict';
 
-var React = require('react');
-var ReactCSS = require('reactcss');
-var _ = require('lodash');
+import React from 'react';
+import ReactCSS from 'reactcss';
+import _ from 'lodash';
 
 class Saturation extends ReactCSS.Component {
 

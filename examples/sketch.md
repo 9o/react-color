@@ -1,7 +1,7 @@
 ```
-var React = require('react');
-var ReactCSS = require('reactcss');
-var ColorPicker = require('react-color');
+import React from 'react';
+import ReactCSS from 'reactcss';
+import ColorPicker from 'react-color';
 
 class SketchExample extends ReactCSS.Component {
 

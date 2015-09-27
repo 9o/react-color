@@ -1,9 +1,9 @@
 'use strict';
 
-var React = require('react');
-var ReactCSS = require('reactcss');
+import React from 'react';
+import ReactCSS from 'reactcss';
 
-var SliderSwatch = require('./SliderSwatch');
+import SliderSwatch from './SliderSwatch';
 
 class SliderSwatches extends ReactCSS.Component {
 

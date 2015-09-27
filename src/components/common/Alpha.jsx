@@ -1,9 +1,9 @@
 'use strict';
 
-var React = require('react');
-var ReactCSS = require('reactcss');
+import React from 'react';
+import ReactCSS from 'reactcss';
 
-var Checkboard = require('./Checkboard');
+import Checkboard from './Checkboard';
 
 class Alpha extends ReactCSS.Component {
 

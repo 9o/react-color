@@ -1,15 +1,15 @@
 'use strict';
 
-var React = require('react');
-var ReactCSS = require('reactcss');
+import React from 'react';
+import ReactCSS from 'reactcss';
 
-var { Container, Grid } = require('react-basic-layout');
-var { Raised } = require('react-material-design');
-var Docs = require('react-docs');
-var Markdown = require('../../../modules/react-docs/lib/components/Markdown');
+import { Container, Grid } from 'react-basic-layout';
+import { Raised } from 'react-material-design';
+import Docs from 'react-docs';
+import Markdown from '../../../modules/react-docs/lib/components/Markdown';
 
-var documentation = require('../../documentation');
-var { Button, buttonmd, Sketch, sketchmd } = require('../../../examples');
+import documentation from '../../documentation';
+import { Button, buttonmd, Sketch, sketchmd } from '../../../examples';
 
 class HomeDocumentation extends ReactCSS.Component {
 

@@ -1,12 +1,12 @@
 'use strict';
 
-var React = require('react');
-var ReactCSS = require('reactcss');
-var color = require('../../helpers/color');
+import React from 'react';
+import ReactCSS from 'reactcss';
+import color from '../../helpers/color';
 
-var { Raised } = require('../../../modules/react-material-design');
-var CompactColor = require('./CompactColor');
-var CompactFields = require('./CompactFields');
+import { Raised } from '../../../modules/react-material-design';
+import CompactColor from './CompactColor';
+import CompactFields from './CompactFields';
 
 class Compact extends ReactCSS.Component {
 

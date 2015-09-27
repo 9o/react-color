@@ -1,8 +1,8 @@
 'use strict';
 
-var React = require('react');
+import React from 'react';
 
-var Home = require('./components/home/Home');
+import Home from './components/home/Home';
 
 // var html = React.renderToString(React.createElement(Home));
 // console.log(html);
